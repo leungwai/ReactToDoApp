@@ -15,6 +15,7 @@ Project from Into to Web Dev class that uses React to create a to-do app
 Page is viewable and hosted via [GitHub Pages](https://leungwai.github.io/ReactToDoApp)
 
 ### Screenshot
+![Screenshot of To-Do app created using React by leungwai](/screenshot.png)
 
 ### To Improve for V2
 - [ ] Import new npm packages (as many that were used for this project are deprecated) 
