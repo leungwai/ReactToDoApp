@@ -1,0 +1,25 @@
+.description-message {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+.sort-button {
+    height: 35px;
+    width: 70%;
+    margin-top: 6px;
+    margin-left: 15%;
+    border: none;
+    border-radius: 17.5px;
+    background-color: #3C86F5;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+@media (max-width: 575px) {
+    .sort-button {
+        width: 100%;
+        margin-left: 0%;
+    }
+}

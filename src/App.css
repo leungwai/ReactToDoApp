@@ -1,0 +1,145 @@
+* {
+    font-family: "Rubik", sans-serif;
+}
+
+body {
+    background-color: #C4F5F1;
+}
+
+.header-bar {
+    position: fixed;
+    z-index: 100;
+    height: 60px;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: rgba(255,255,255,.75);
+    box-shadow: 3px 3px 3px 3px rgba(180, 180, 180, .5);
+}
+
+.header-left {
+    display: inline-block;
+    height: 100%;
+    width: 325px;
+}
+
+#main-title {
+    margin-top: 8px;
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.header-right {
+    float: right;
+    height: 100%;
+    width: 50%;
+}
+
+#settings {
+    float: right;
+    height: 28px;
+    width: 28px;
+    margin-top: 16px;
+    margin-right: 20px;
+}
+
+#user-profile {
+    float: right;
+    height: 25px;
+    width: 25px;
+    margin-top: 17.5px;
+    margin-right: 20px;
+}
+
+#search-icon {
+    display: none;
+    float: right;
+    height: 25px;
+    width: 25px;
+    margin-top: 17.5px;
+    margin-right: 20px;
+}
+
+#search-box {
+    float: right;
+    height: 40px;
+    width: 250px;
+    margin-top: 10px;
+    margin-right: 20px;
+    border: 2px solid rgba(128, 128, 128, 0.50);
+    border-radius: 20px;
+    padding-left: 20px;
+}
+
+@media (max-width: 500px) {
+    .header-right {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .header-right {
+        width: 35%;
+    }
+
+    #search-icon {
+        display: inline-block;
+    }
+
+    #search-box {
+        display: none;
+    }
+}
+
+#content {
+    position: absolute;
+    width: 50%;
+    margin-top: 60px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+@media (max-width: 991px) {
+    #content {
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}
+
+@media (max-width: 767px) {
+    #content {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+.description-message {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+#list {
+    margin-top: 25px;
+    margin-bottom: 50px;
+    border: 2px solid rgba(161, 161, 161, 0.5);
+    border-radius: 20px;
+    background-color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+.list-label {
+    margin-top: 15px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid rgba(161, 161, 161, 0.5);
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
