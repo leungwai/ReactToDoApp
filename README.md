@@ -4,7 +4,7 @@ _\#React \#HTML \#CSS \#Bootstrap_
 
 Project from Into to Web Dev class that uses React to create a to-do app
 
-## This Project Showcases: 
+## This Project Showcases:
 - ⚛️ Use of **React** (instead of pure Javascript) to build the "database"
 - 💻 Use of **HTML** and **CSS** for page creation and decoration
 - 🎉 Use of **Bootstrap** for grid alignment for the various panels and posts
