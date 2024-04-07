@@ -1,8 +1,8 @@
 # ✅ ReactToDoApp
 
-_\#React \#HTML \#CSS \#Bootstrap_
-
 Project from Into to Web Dev class that uses React to create a to-do app
+
+_\#React \#HTML \#CSS \#Bootstrap_
 
 ## This Project Showcases:
 - ⚛️ Use of **React** (instead of pure Javascript) to build the "database"
